@@ -1,5 +1,5 @@
 {
-  "name": "hermit-md",
+  "name": "ronen",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
@@ -10,17 +10,17 @@
     "SESSION_ID": {
       "description": "session id",
       "required": true,
-      "value": ""
+      "value": "12_06_H_E_R_M_I_T_O5T7C2G"
     },
     "SUDO": {
       "description": "owner number of the bot",
       "required": true,
-      "value": "null"
+      "value": "916000530073"
     },
     "MODE": {
       "description": "mode public or private",
       "required": true,
-      "value": "private"
+      "value": "public"
     },
     "ALWAYS_ONLINE": {
       "description": "show bot number last seen as online",
@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "bot;Ronen;916000530073;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ"
+      "value": "Bot;Ronen"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "Bot;Ronen;https://i.imgur.com/pbNNWfM.jpeg"
     },
     "READ_MSG": {
       "description": "Read all messages",
