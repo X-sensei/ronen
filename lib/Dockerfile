@@ -1,6 +1,8 @@
-FROM quay.io/hermit/hermit-ser:latest
+FROM quay.io/teamolduser/docker
 
-RUN git clone https://github.com/A-d-i-t-h-y-a-n/hermit-md /root/hermit-md
-WORKDIR /root/hermit-md/
+COPY . /root/Anyav2
+WORKDIR /root/Anyav2
+RUN apt install ffmpeg
 RUN yarn install --network-concurrency 1
-CMD ["node", "index.js", "--max_old_space_size=2560"]
+EXPOSE 8000
+CMD ["yarn", "start"]
